@@ -2,7 +2,7 @@ const collegues = [
     "Antoine Ghysens",
     "Aurore Remy",
     "Baptiste Geron",
-    "Batsheeba Deepijan"
+    "Batsheeba Deepijan",
     "Bruno Presti",
     "Fabrice Castrogiovanni",
     "Francis François",
@@ -15,7 +15,7 @@ const collegues = [
     "René",
     "Rouslan Boyko",
     "Stephane Genet",
-    "Thomas Beckers"
+    "Thomas Beckers",
     "Tiffany Dessouroux",
 ];
 
@@ -65,4 +65,5 @@ for (let collegue of collegues) {
     newSection.appendChild(newP);
     newSection.style.backgroundColor = sectionBackgroundColor;
     article.appendChild(newSection);
+}
 }
