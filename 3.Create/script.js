@@ -1,5 +1,23 @@
 const article = document.querySelector('article');
-const learners = ["Antoine Ghysens", "Aurore Remy", "Baptiste Geron", "Batsheba Deepijan", "Bruno Presti", "Fabrice Castrogiovanni", "Fanny Fraiture", "Francis François", "Frederic Van Overmeire", "JC Molhant", "Maxim K.", "Michael Tesfay", "Philippe Meulemans", "Raoni Gillet", "René", "Rouslan Boyko", "Stephane Genet", "Thomas Backers", "Tiffany Dessouroux"];
+const learners = ["Antoine Ghysens", 
+"Aurore Remy", 
+"Baptiste Geron", 
+"Batsheba Deepijan", 
+"Bruno Presti", 
+"Fabrice Castrogiovanni", 
+"Fanny Fraiture", 
+"Francis François", 
+"Frederic Van Overmeire", 
+"JC Molhant", 
+"Maxim K.", 
+"Michael Tesfay", 
+"Philippe Meulemans", 
+"Raoni Gillet", 
+"René", 
+"Rouslan Boyko", 
+"Stephane Genet", 
+"Thomas Backers", 
+"Tiffany Dessouroux"];
 
 const rand = (max) => {
     return Math.floor(Math.random() * max +1);
