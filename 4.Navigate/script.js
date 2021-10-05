@@ -16,5 +16,5 @@ secondSection.insertBefore(h2[2], h2[1]);
 thirdSection.insertBefore(h2[1], thirdSection.firstChild);
 
 //Delete the last section from the DOM, we don't need it anyways
-const section = document.getElementById("third");
+const section = document.getElementById("second");
 section.remove();
