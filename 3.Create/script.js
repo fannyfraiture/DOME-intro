@@ -1,5 +1,6 @@
 const article = document.querySelector('article');
-const learners = ["Antoine Ghysens", 
+const learners = [
+"Antoine Ghysens", 
 "Aurore Remy", 
 "Baptiste Geron", 
 "Batsheba Deepijan", 
@@ -19,6 +20,7 @@ const learners = ["Antoine Ghysens",
 "Thomas Backers", 
 "Tiffany Dessouroux"];
 
+// On renvoie un nombre aléatoire entre 0 (inclus) et 1 (exclus)
 const rand = (max) => {
     return Math.floor(Math.random() * max +1);
 }
